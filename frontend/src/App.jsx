@@ -17,7 +17,7 @@ function App() {
 
 		try {
 			// Connect to backend
-			const response = await fetch('http://localhost:3000/api/ask', {
+			const response = await fetch('https://klausimelis-backend.onrender.com/api/ask', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ question }),
