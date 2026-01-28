@@ -1,0 +1,74 @@
+/* Global box-sizing reset */
+* {
+	box-sizing: border-box;
+}
+
+/* Page layout */
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #f0f2f5;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+}
+
+/* Main component container */
+.card {
+	background: white;
+	color: black;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+
+	/* Responsive sizing */
+	width: 100%;
+	max-width: 350px;
+}
+
+/* Form input */
+input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+/* Button */
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.2s;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+/* Result messages */
+.result {
+	margin-top: 20px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+	margin-top: 10px;
+}
