@@ -1,5 +1,7 @@
 # Klausimėlis
 
+**Live Demo:** [https://klausimelis.onrender.com/](https://klausimelis.onrender.com/)
+
 A simple web application for answering yes or no questions.
 
 ## How to Run
